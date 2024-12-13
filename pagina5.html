@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Site do Gui</title>
+    <style>
+        body{
+            background-color: rgb(25, 94, 107);
+            color: rgb(213, 207, 207);
+            font-size: 22px;
+        }
+    
+        h1 {
+            color: rgb(6, 6, 93);
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    
+        h4 {
+            color: rgb(213, 207, 207);
+        }
+    
+       td{
+        color: white;
+        background-color: rgb(213, 207, 207);
+        }
+
+        a:hover {
+            background-color: #0b1fb9;
+            color: white;
+        }
+
+        a {
+            display: block;
+            padding: 6px 14px;
+            text-decoration: none;
+        }    
+
+       
+
+/*
+Guardando aqui caso precise usar 
+
+<form action="" method="">
+    <table>
+    <tr>
+        <th><label for="nome"> Nome:</label></th>
+        <td><input type="text" name="nome" id="nome"></td>
+    </tr> <br>
+    <tr>
+        <th><label for="email">E-mail:</label></th>
+        <td><input type="email" name="email" id="email"></td>
+    </tr>
+    <tr>
+        <th><label for="msg">Digite sua mensagem:</label>
+        </th>
+        <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+    </tr>
+    <tr>        
+        <button>Enviar</button></td>
+        </tr>
+    </table>   
+</form>    
+*/
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1> Fale com o Gui </h1>
+    
+    <table border="3">
+                
+        <tr>
+            <td> <a href="index.html">Inicial</a></td>
+            <td> <a href="pagina2.html">Sobre o Gui</a></td>
+            <td> <a href="pagina3.html">Formação e Idioma</a></td>
+            <td> <a href="pagina4.html">Porfólio</a></td>
+            <td> <a href="pagina5.html">Fale com o Gui</a></td>
+            
+        </tr>
+
+    </table>
+
+    <br>
+
+    <h4>Preencha os dados abaixo para entrar em contato comigo</h4>
+
+
+<form action="/action_page.php">
+    <label for="fname">Nome:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="telefone">Telefone e código de área:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Insira seu melhor email</label> <br>
+  <input type="email" id="email" name="email"> <br>
+  <label for="text">Escreva sua mensagem:</label><br>
+  <input type="text" size="100" maxlength="400" rows="5" cols="40" placeholder="Escreva aqui sua mensagem"
+  id="lname" name="lname">
+  <input type="submit" value="Manda Bala">
+
+  </form> 
+
+</body>
+
+
+</html>
